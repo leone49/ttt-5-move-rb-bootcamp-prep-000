@@ -12,4 +12,3 @@ puts "Where would you like to go?"
 def input_to_index(input)
     gets.to_i
 end
-
