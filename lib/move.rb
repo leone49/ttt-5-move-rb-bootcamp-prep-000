@@ -12,5 +12,7 @@ puts "Where would you like to go?"
 def input_to_index(input)
   input =  gets.strip
   index = input.to_i - 1
-
+  if index.between? (0,8)
+  else return "-1"
+  end
 end
