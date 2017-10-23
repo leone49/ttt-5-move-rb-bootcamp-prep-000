@@ -13,5 +13,3 @@ def input_to_index(input)
     gets.to_i
 end
 
-input = gets.to_i
-input_to_index(input)
