@@ -17,3 +17,4 @@ def input_to_index(input)
   else
     return -1
   end
+end
