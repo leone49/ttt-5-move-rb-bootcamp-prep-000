@@ -10,6 +10,6 @@ puts "Where would you like to go?"
 
 # code your input_to_index and move method here!
 def input_to_index(input)
-  input =  gets.to_i
-    
+  input =  gets.strip
+
 end
