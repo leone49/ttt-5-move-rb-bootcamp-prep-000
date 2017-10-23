@@ -14,3 +14,4 @@ def input_to_index(input)
 end
 
 input = gets.to_i
+input_to_index(input)
