@@ -15,4 +15,5 @@ def input_to_index(input)
   if index.between? (0,8)
   else return -1
   end
+  return index
 end
