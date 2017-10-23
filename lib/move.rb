@@ -14,4 +14,4 @@ def input_to_index(input)
   gets.to_i
 end
 
-gets.input_to_index(input)
+input_to_index(input)
