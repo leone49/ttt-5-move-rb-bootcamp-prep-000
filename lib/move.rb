@@ -11,5 +11,6 @@ puts "Where would you like to go?"
 # code your input_to_index and move method here!
 def input_to_index(input)
   input =  gets.strip
+  index = input.to_i - 1
 
 end
