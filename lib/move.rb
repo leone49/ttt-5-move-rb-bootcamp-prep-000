@@ -13,7 +13,8 @@ def input_to_index(input)
   input =  gets.strip
   index = input.to_i - 1
   if index.between? (0,8)
+    return index
   else return -1
   end
-  return index
+
 end
