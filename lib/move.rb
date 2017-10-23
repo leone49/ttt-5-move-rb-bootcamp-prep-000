@@ -7,15 +7,8 @@ def display_board(board)
 end
 
 # code your input_to_index and move method here!
-def input_to_index(input)
-  input =  gets.strip
-  index = input.to_i - 1
-  if index.between?(0,8)
-    return index
-  else
-    return -1
-  end
+def input_to_index(user_input)
+  user_input.to_i - 1
 end
 
-def move
-end
+def move(board,. input_to_index, players_character = "X")
